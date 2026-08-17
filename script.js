@@ -1,3 +1,5 @@
+import marks from './test.js'
+import {name,clg} from './test.js'
 
 // creating HTML element using JS
 var h1 = document.createElement('h2');
@@ -5,3 +7,4 @@ var h1 = document.createElement('h2');
 h1.innerHTML = "Hello From JS";
 // appending the element to the body of the document
 document.body.appendChild(h1);
+console.log(name +" "+clg+" "+marks)
